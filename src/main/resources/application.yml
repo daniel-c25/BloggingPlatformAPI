@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: BloggingPlatformAPI
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Mainstream1.
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
